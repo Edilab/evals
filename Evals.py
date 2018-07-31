@@ -2,8 +2,6 @@ import discord
 from discord.ext import commands
 import sys, traceback
 
-TOKEN = 'NDQ3ODM2NzA4Nzc2NzA2MDQ4.Dj6FYA.FtaZNqK4m_PaqyN5mH4xu-sgbTw'
-
 def get_prefix(bot, message):
     prefixes = ['$']
     if not message.guild:
